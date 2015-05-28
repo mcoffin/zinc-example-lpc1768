@@ -8,8 +8,13 @@ git = "https://github.com/mcoffin/zinc.git"
 branch = "new-build"
 features = ["lpc17xx"]
 
+[dependencies.macro_zinc]
+git = "https://github.com/mcoffin/zinc.git"
+branch = "new-build"
+path = "macro_zinc"
+
 [dependencies.core]
-git = "https://github.com/bharrisau/rust-libcore"
+git = "https://github.com/hackndev/rust-libcore"
 
 [[bin]]
 name = "blink"
